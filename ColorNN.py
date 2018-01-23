@@ -67,7 +67,13 @@ def preprocessing(x):
 
     return training_data, training_labels
 
+'''
+r,g,b
+data: [[0,1]]
+label: 
+red: [1,0,0,0,0,0,0,0]
 
+'''
 
 data, labels = preprocessing(data)
 
@@ -76,12 +82,9 @@ data, labels = preprocessing(data)
 x = tf.placeholder('float', [None, 24])
 y = tf.placeholder('float')
 
-hm_epochs = 10
+# hm_epochs = 10
 
 def network_model(x):
-
-    # print(x)
-
     hidden_one = {'w' : tf.Variable(tf.random_normal([24 , 100])) , 'b' : tf.Variable(tf.random_normal([100]))}
     hidden_two = {'w': tf.Variable(tf.random_normal([100, 50])), 'b': tf.Variable(tf.random_normal([50]))}
     output_layer = {'w': tf.Variable(tf.random_normal([50, 9])), 'b': tf.Variable(tf.random_normal([9]))}

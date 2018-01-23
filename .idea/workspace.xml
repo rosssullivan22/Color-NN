@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93bca5d2-19b0-4949-8142-03c6d49bea03" name="Default" comment="" />
+    <list default="true" id="93bca5d2-19b0-4949-8142-03c6d49bea03" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PlotTesting.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ColorNN.py" afterPath="$PROJECT_DIR$/ColorNN.py" />
+      <change beforePath="$PROJECT_DIR$/SOM.py" afterPath="$PROJECT_DIR$/SOM.py" />
+      <change beforePath="$PROJECT_DIR$/SOMObject.py" afterPath="$PROJECT_DIR$/SOMObject.py" />
+      <change beforePath="$PROJECT_DIR$/tmp/checkpoint" afterPath="$PROJECT_DIR$/tmp/checkpoint" />
+      <change beforePath="$PROJECT_DIR$/tmp/model.ckpt.data-00000-of-00001" afterPath="$PROJECT_DIR$/tmp/model.ckpt.data-00000-of-00001" />
+      <change beforePath="$PROJECT_DIR$/tmp/model.ckpt.index" afterPath="$PROJECT_DIR$/tmp/model.ckpt.index" />
+      <change beforePath="$PROJECT_DIR$/tmp/model.ckpt.meta" afterPath="$PROJECT_DIR$/tmp/model.ckpt.meta" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,80 +22,77 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python_Color_NN$SOMObject.coverage" NAME="SOMObject Coverage Results" MODIFIED="1515956703927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Color_NN$SOM.coverage" NAME="SOM Coverage Results" MODIFIED="1516373939278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Color_NN$PlotTesting.coverage" NAME="PlotTesting Coverage Results" MODIFIED="1516375300140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Color_NN$ColorNN.coverage" NAME="ColorNN Coverage Results" MODIFIED="1515885270783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_Color_NN$SOM.coverage" NAME="SOM Coverage Results" MODIFIED="1516076336506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Color_NN$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1515956682231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_Color_NN$PlotTesting.coverage" NAME="PlotTesting Coverage Results" MODIFIED="1515973330765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ColorNN.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ColorNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1850">
-              <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="150" selection-end-column="31" />
+            <state relative-caret-position="1444">
+              <caret line="166" column="24" lean-forward="false" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <element signature="e#276#674#0" expanded="false" />
-                <element signature="e#714#961#0" expanded="false" />
-                <element signature="e#1004#1190#0" expanded="false" />
-                <element signature="e#1087#1164#0" expanded="false" />
-                <element signature="e#1228#1296#0" expanded="false" />
-                <element signature="e#1326#1601#0" expanded="false" />
-                <element signature="e#1397#1558#0" expanded="false" />
-                <element signature="e#1764#2374#0" expanded="false" />
-                <element signature="e#2415#2627#0" expanded="false" />
-                <element signature="e#4603#4644#0" expanded="false" />
+                <element signature="e#1824#2418#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SOM.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SOM.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SOM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="127" column="4" lean-forward="true" selection-start-line="127" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="171" column="1" lean-forward="true" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#352#434#0" expanded="false" />
-                <element signature="e#472#870#0" expanded="false" />
-                <element signature="e#912#1097#0" expanded="false" />
-                <element signature="e#994#1071#0" expanded="false" />
-                <element signature="e#1138#1307#0" expanded="false" />
-                <element signature="e#1350#1482#0" expanded="false" />
-                <element signature="e#1520#1588#0" expanded="false" />
-                <element signature="e#1617#1892#0" expanded="false" />
-                <element signature="e#1933#2145#0" expanded="false" />
-                <element signature="e#2186#2433#0" expanded="false" />
+                <element signature="e#353#435#0" expanded="false" />
+                <element signature="e#473#871#0" expanded="false" />
+                <element signature="e#913#1098#0" expanded="false" />
+                <element signature="e#995#1072#0" expanded="false" />
+                <element signature="e#1139#1308#0" expanded="false" />
+                <element signature="e#1351#1483#0" expanded="false" />
+                <element signature="e#1521#1589#0" expanded="false" />
+                <element signature="e#1934#2146#0" expanded="false" />
+                <element signature="e#2187#2434#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SOMObject.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SOMObject.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SOMObject.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="160" column="5" lean-forward="true" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
+            <state relative-caret-position="2325">
+              <caret line="96" column="19" lean-forward="false" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
               <folding>
-                <element signature="e#245#3846#0" expanded="false" />
-                <element signature="e#725#3817#0" expanded="false" />
-                <element signature="e#1022#1039#0" expanded="false" />
-                <element signature="e#2682#2795#0" expanded="false" />
-                <element signature="e#2810#2846#0" expanded="false" />
-                <element signature="e#3571#3698#0" expanded="false" />
-                <element signature="e#3735#3817#0" expanded="false" />
-                <element signature="e#3894#3982#0" expanded="false" />
-                <element signature="e#3925#3982#0" expanded="false" />
-                <element signature="e#4026#4525#0" expanded="false" />
-                <element signature="e#4186#4426#0" expanded="false" />
-                <element signature="e#4570#4961#0" expanded="false" />
-                <element signature="e#5000#5106#0" expanded="false" />
-                <element signature="e#5155#5521#0" expanded="false" />
-                <element signature="e#5297#5495#0" expanded="false" />
-                <element signature="e#5581#5803#0" expanded="false" />
-                <element signature="e#5845#5985#0" expanded="false" />
+                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#5647#5869#0" expanded="false" />
+                <element signature="e#5911#6051#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlotTesting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PlotTesting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="110" column="38" lean-forward="false" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#303#385#0" expanded="false" />
+                <element signature="e#423#821#0" expanded="false" />
+                <element signature="e#863#1048#0" expanded="false" />
+                <element signature="e#945#1022#0" expanded="false" />
+                <element signature="e#1089#1258#0" expanded="false" />
+                <element signature="e#1301#1433#0" expanded="false" />
+                <element signature="e#1471#1539#0" expanded="false" />
+                <element signature="e#1884#2096#0" expanded="false" />
+                <element signature="e#2137#2384#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -113,15 +121,18 @@
       <replace>stack</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ColorNN.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test2.py" />
-        <option value="$PROJECT_DIR$/PlotTesting.py" />
-        <option value="$PROJECT_DIR$/SOM.py" />
+        <option value="$PROJECT_DIR$/ColorNN.py" />
         <option value="$PROJECT_DIR$/SOMObject.py" />
+        <option value="$PROJECT_DIR$/SOM.py" />
+        <option value="$PROJECT_DIR$/PlotTesting.py" />
       </list>
     </option>
   </component>
@@ -132,9 +143,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="246" />
+    <option name="y" value="-8" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -150,8 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,10 +171,17 @@
               <item name="Python Color NN" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python Color NN" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python Color NN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python Color NN" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SOM">
+  <component name="RunManager" selected="Python.PlotTesting">
     <configuration name="ColorNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,6 +220,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="PlotTesting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,6 +239,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="SOM" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,6 +258,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="SOMObject" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,6 +277,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,6 +296,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.ColorNN" />
@@ -283,8 +307,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.SOM" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PlotTesting" />
+        <item index="0" class="java.lang.String" itemvalue="Python.PlotTesting" />
+        <item index="1" class="java.lang.String" itemvalue="Python.SOM" />
         <item index="2" class="java.lang.String" itemvalue="Python.SOMObject" />
         <item index="3" class="java.lang.String" itemvalue="Python.test2" />
         <item index="4" class="java.lang.String" itemvalue="Python.ColorNN" />
@@ -311,28 +335,28 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16617863" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48811412" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22482197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28209192" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16617863" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4795022" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26144457" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48811412" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27873856" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,6 +367,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SOM.py</url>
+          <line>185</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -350,31 +381,450 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="data_entry" />
+        <watch expression="som.weightages" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ColorNN.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3850">
+          <caret line="166" column="24" lean-forward="false" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#1824#2418#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#353#435#0" expanded="false" />
+            <element signature="e#473#871#0" expanded="false" />
+            <element signature="e#913#1098#0" expanded="false" />
+            <element signature="e#995#1072#0" expanded="false" />
+            <element signature="e#1139#1308#0" expanded="false" />
+            <element signature="e#1351#1483#0" expanded="false" />
+            <element signature="e#1521#1589#0" expanded="false" />
+            <element signature="e#1934#2146#0" expanded="false" />
+            <element signature="e#2187#2434#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOMObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="96" column="19" lean-forward="false" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#5647#5869#0" expanded="false" />
+            <element signature="e#5911#6051#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlotTesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="110" column="38" lean-forward="false" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#303#385#0" expanded="false" />
+            <element signature="e#423#821#0" expanded="false" />
+            <element signature="e#863#1048#0" expanded="false" />
+            <element signature="e#945#1022#0" expanded="false" />
+            <element signature="e#1089#1258#0" expanded="false" />
+            <element signature="e#1301#1433#0" expanded="false" />
+            <element signature="e#1471#1539#0" expanded="false" />
+            <element signature="e#1884#2096#0" expanded="false" />
+            <element signature="e#2137#2384#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ColorNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3950">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#1824#2418#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOMObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="96" column="19" lean-forward="false" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#5647#5869#0" expanded="false" />
+            <element signature="e#5911#6051#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlotTesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#303#385#0" expanded="false" />
+            <element signature="e#423#821#0" expanded="false" />
+            <element signature="e#863#1048#0" expanded="false" />
+            <element signature="e#945#1022#0" expanded="false" />
+            <element signature="e#1089#1258#0" expanded="false" />
+            <element signature="e#1301#1433#0" expanded="false" />
+            <element signature="e#1471#1539#0" expanded="false" />
+            <element signature="e#1884#2096#0" expanded="false" />
+            <element signature="e#2137#2384#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2900">
+          <caret line="173" column="36" lean-forward="false" selection-start-line="173" selection-start-column="36" selection-end-line="173" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#353#435#0" expanded="false" />
+            <element signature="e#473#871#0" expanded="false" />
+            <element signature="e#913#1098#0" expanded="false" />
+            <element signature="e#995#1072#0" expanded="false" />
+            <element signature="e#1139#1308#0" expanded="false" />
+            <element signature="e#1351#1483#0" expanded="false" />
+            <element signature="e#1521#1589#0" expanded="false" />
+            <element signature="e#1934#2146#0" expanded="false" />
+            <element signature="e#2187#2434#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ColorNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3950">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#1824#2418#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#353#435#0" expanded="false" />
+            <element signature="e#473#871#0" expanded="false" />
+            <element signature="e#913#1098#0" expanded="false" />
+            <element signature="e#995#1072#0" expanded="false" />
+            <element signature="e#1139#1308#0" expanded="false" />
+            <element signature="e#1351#1483#0" expanded="false" />
+            <element signature="e#1521#1589#0" expanded="false" />
+            <element signature="e#1934#2146#0" expanded="false" />
+            <element signature="e#2187#2434#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlotTesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#303#385#0" expanded="false" />
+            <element signature="e#423#821#0" expanded="false" />
+            <element signature="e#863#1048#0" expanded="false" />
+            <element signature="e#945#1022#0" expanded="false" />
+            <element signature="e#1089#1258#0" expanded="false" />
+            <element signature="e#1301#1433#0" expanded="false" />
+            <element signature="e#1471#1539#0" expanded="false" />
+            <element signature="e#1884#2096#0" expanded="false" />
+            <element signature="e#2137#2384#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOMObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4050">
+          <caret line="171" column="14" lean-forward="true" selection-start-line="171" selection-start-column="14" selection-end-line="171" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#5647#5869#0" expanded="false" />
+            <element signature="e#5911#6051#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ColorNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3950">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#1824#2418#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOMObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4025">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#5647#5869#0" expanded="false" />
+            <element signature="e#5911#6051#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlotTesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#303#385#0" expanded="false" />
+            <element signature="e#423#821#0" expanded="false" />
+            <element signature="e#863#1048#0" expanded="false" />
+            <element signature="e#945#1022#0" expanded="false" />
+            <element signature="e#1089#1258#0" expanded="false" />
+            <element signature="e#1301#1433#0" expanded="false" />
+            <element signature="e#1471#1539#0" expanded="false" />
+            <element signature="e#1884#2096#0" expanded="false" />
+            <element signature="e#2137#2384#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#353#435#0" expanded="false" />
+            <element signature="e#473#871#0" expanded="false" />
+            <element signature="e#913#1098#0" expanded="false" />
+            <element signature="e#995#1072#0" expanded="false" />
+            <element signature="e#1139#1308#0" expanded="false" />
+            <element signature="e#1351#1483#0" expanded="false" />
+            <element signature="e#1521#1589#0" expanded="false" />
+            <element signature="e#1934#2146#0" expanded="false" />
+            <element signature="e#2187#2434#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ColorNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3900">
+          <caret line="168" column="22" lean-forward="false" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#1824#2418#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOMObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="76" lean-forward="false" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#5647#5869#0" expanded="false" />
+            <element signature="e#5911#6051#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlotTesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#303#385#0" expanded="false" />
+            <element signature="e#423#821#0" expanded="false" />
+            <element signature="e#863#1048#0" expanded="false" />
+            <element signature="e#945#1022#0" expanded="false" />
+            <element signature="e#1089#1258#0" expanded="false" />
+            <element signature="e#1301#1433#0" expanded="false" />
+            <element signature="e#1471#1539#0" expanded="false" />
+            <element signature="e#1884#2096#0" expanded="false" />
+            <element signature="e#2137#2384#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="105" column="9" lean-forward="false" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#353#435#0" expanded="false" />
+            <element signature="e#473#871#0" expanded="false" />
+            <element signature="e#913#1098#0" expanded="false" />
+            <element signature="e#995#1072#0" expanded="false" />
+            <element signature="e#1139#1308#0" expanded="false" />
+            <element signature="e#1351#1483#0" expanded="false" />
+            <element signature="e#1521#1589#0" expanded="false" />
+            <element signature="e#1934#2146#0" expanded="false" />
+            <element signature="e#2187#2434#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ColorNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#1824#2418#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOMObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4025">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#5647#5869#0" expanded="false" />
+            <element signature="e#5911#6051#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlotTesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#303#385#0" expanded="false" />
+            <element signature="e#423#821#0" expanded="false" />
+            <element signature="e#863#1048#0" expanded="false" />
+            <element signature="e#945#1022#0" expanded="false" />
+            <element signature="e#1089#1258#0" expanded="false" />
+            <element signature="e#1301#1433#0" expanded="false" />
+            <element signature="e#1471#1539#0" expanded="false" />
+            <element signature="e#1884#2096#0" expanded="false" />
+            <element signature="e#2137#2384#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3225">
+          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#353#435#0" expanded="false" />
+            <element signature="e#473#871#0" expanded="false" />
+            <element signature="e#913#1098#0" expanded="false" />
+            <element signature="e#995#1072#0" expanded="false" />
+            <element signature="e#1139#1308#0" expanded="false" />
+            <element signature="e#1351#1483#0" expanded="false" />
+            <element signature="e#1521#1589#0" expanded="false" />
+            <element signature="e#1934#2146#0" expanded="false" />
+            <element signature="e#2187#2434#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ColorNN.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1850">
           <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="150" selection-end-column="31" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#276#674#0" expanded="false" />
-            <element signature="e#714#961#0" expanded="false" />
-            <element signature="e#1004#1190#0" expanded="false" />
-            <element signature="e#1087#1164#0" expanded="false" />
-            <element signature="e#1228#1296#0" expanded="false" />
-            <element signature="e#1326#1601#0" expanded="false" />
-            <element signature="e#1397#1558#0" expanded="false" />
-            <element signature="e#1764#2374#0" expanded="false" />
-            <element signature="e#2415#2627#0" expanded="false" />
-            <element signature="e#4603#4644#0" expanded="false" />
+            <element signature="e#1824#2418#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="127" column="4" lean-forward="true" selection-start-line="127" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#353#435#0" expanded="false" />
+            <element signature="e#473#871#0" expanded="false" />
+            <element signature="e#913#1098#0" expanded="false" />
+            <element signature="e#995#1072#0" expanded="false" />
+            <element signature="e#1139#1308#0" expanded="false" />
+            <element signature="e#1351#1483#0" expanded="false" />
+            <element signature="e#1521#1589#0" expanded="false" />
+            <element signature="e#1934#2146#0" expanded="false" />
+            <element signature="e#2187#2434#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOMObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4025">
+          <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#5647#5869#0" expanded="false" />
+            <element signature="e#5911#6051#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlotTesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#303#385#0" expanded="false" />
+            <element signature="e#423#821#0" expanded="false" />
+            <element signature="e#863#1048#0" expanded="false" />
+            <element signature="e#945#1022#0" expanded="false" />
+            <element signature="e#1089#1258#0" expanded="false" />
+            <element signature="e#1301#1433#0" expanded="false" />
+            <element signature="e#1471#1539#0" expanded="false" />
+            <element signature="e#1884#2096#0" expanded="false" />
+            <element signature="e#2137#2384#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ColorNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1850">
+          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="150" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#1824#2418#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -385,16 +835,15 @@
           <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#352#434#0" expanded="false" />
-            <element signature="e#472#870#0" expanded="false" />
-            <element signature="e#912#1097#0" expanded="false" />
-            <element signature="e#994#1071#0" expanded="false" />
-            <element signature="e#1138#1307#0" expanded="false" />
-            <element signature="e#1350#1482#0" expanded="false" />
-            <element signature="e#1520#1588#0" expanded="false" />
-            <element signature="e#1617#1892#0" expanded="false" />
-            <element signature="e#1933#2145#0" expanded="false" />
-            <element signature="e#2186#2433#0" expanded="false" />
+            <element signature="e#353#435#0" expanded="false" />
+            <element signature="e#473#871#0" expanded="false" />
+            <element signature="e#913#1098#0" expanded="false" />
+            <element signature="e#995#1072#0" expanded="false" />
+            <element signature="e#1139#1308#0" expanded="false" />
+            <element signature="e#1351#1483#0" expanded="false" />
+            <element signature="e#1521#1589#0" expanded="false" />
+            <element signature="e#1934#2146#0" expanded="false" />
+            <element signature="e#2187#2434#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -405,16 +854,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#276#674#0" expanded="false" />
-            <element signature="e#714#961#0" expanded="false" />
-            <element signature="e#1004#1190#0" expanded="false" />
-            <element signature="e#1087#1164#0" expanded="false" />
-            <element signature="e#1228#1296#0" expanded="false" />
-            <element signature="e#1326#1601#0" expanded="false" />
-            <element signature="e#1397#1558#0" expanded="false" />
-            <element signature="e#1764#2374#0" expanded="false" />
-            <element signature="e#2415#2627#0" expanded="false" />
-            <element signature="e#4603#4644#0" expanded="false" />
+            <element signature="e#1824#2418#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -443,13 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PlotTesting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -461,72 +894,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-89">
           <caret line="1640" column="6" lean-forward="false" selection-start-line="1640" selection-start-column="6" selection-end-line="1640" selection-end-column="6" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1598" column="0" lean-forward="false" selection-start-line="1598" selection-start-column="0" selection-end-line="1598" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOMObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="96" column="19" lean-forward="false" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#5647#5869#0" expanded="false" />
+            <element signature="e#5911#6051#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlotTesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="110" column="38" lean-forward="false" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#303#385#0" expanded="false" />
+            <element signature="e#423#821#0" expanded="false" />
+            <element signature="e#863#1048#0" expanded="false" />
+            <element signature="e#945#1022#0" expanded="false" />
+            <element signature="e#1089#1258#0" expanded="false" />
+            <element signature="e#1301#1433#0" expanded="false" />
+            <element signature="e#1471#1539#0" expanded="false" />
+            <element signature="e#1884#2096#0" expanded="false" />
+            <element signature="e#2137#2384#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ColorNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="150" selection-end-column="31" />
+        <state relative-caret-position="1444">
+          <caret line="166" column="24" lean-forward="false" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#276#674#0" expanded="false" />
-            <element signature="e#714#961#0" expanded="false" />
-            <element signature="e#1004#1190#0" expanded="false" />
-            <element signature="e#1087#1164#0" expanded="false" />
-            <element signature="e#1228#1296#0" expanded="false" />
-            <element signature="e#1326#1601#0" expanded="false" />
-            <element signature="e#1397#1558#0" expanded="false" />
-            <element signature="e#1764#2374#0" expanded="false" />
-            <element signature="e#2415#2627#0" expanded="false" />
-            <element signature="e#4603#4644#0" expanded="false" />
+            <element signature="e#1824#2418#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SOM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="127" column="4" lean-forward="true" selection-start-line="127" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="171" column="1" lean-forward="true" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#352#434#0" expanded="false" />
-            <element signature="e#472#870#0" expanded="false" />
-            <element signature="e#912#1097#0" expanded="false" />
-            <element signature="e#994#1071#0" expanded="false" />
-            <element signature="e#1138#1307#0" expanded="false" />
-            <element signature="e#1350#1482#0" expanded="false" />
-            <element signature="e#1520#1588#0" expanded="false" />
-            <element signature="e#1617#1892#0" expanded="false" />
-            <element signature="e#1933#2145#0" expanded="false" />
-            <element signature="e#2186#2433#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SOMObject.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="160" column="5" lean-forward="true" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
-          <folding>
-            <element signature="e#245#3846#0" expanded="false" />
-            <element signature="e#725#3817#0" expanded="false" />
-            <element signature="e#1022#1039#0" expanded="false" />
-            <element signature="e#2682#2795#0" expanded="false" />
-            <element signature="e#2810#2846#0" expanded="false" />
-            <element signature="e#3571#3698#0" expanded="false" />
-            <element signature="e#3735#3817#0" expanded="false" />
-            <element signature="e#3894#3982#0" expanded="false" />
-            <element signature="e#3925#3982#0" expanded="false" />
-            <element signature="e#4026#4525#0" expanded="false" />
-            <element signature="e#4186#4426#0" expanded="false" />
-            <element signature="e#4570#4961#0" expanded="false" />
-            <element signature="e#5000#5106#0" expanded="false" />
-            <element signature="e#5155#5521#0" expanded="false" />
-            <element signature="e#5297#5495#0" expanded="false" />
-            <element signature="e#5581#5803#0" expanded="false" />
-            <element signature="e#5845#5985#0" expanded="false" />
+            <element signature="e#353#435#0" expanded="false" />
+            <element signature="e#473#871#0" expanded="false" />
+            <element signature="e#913#1098#0" expanded="false" />
+            <element signature="e#995#1072#0" expanded="false" />
+            <element signature="e#1139#1308#0" expanded="false" />
+            <element signature="e#1351#1483#0" expanded="false" />
+            <element signature="e#1521#1589#0" expanded="false" />
+            <element signature="e#1934#2146#0" expanded="false" />
+            <element signature="e#2187#2434#0" expanded="false" />
           </folding>
         </state>
       </provider>

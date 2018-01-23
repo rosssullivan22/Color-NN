@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\Ross\\Desktop\\Python Color NN\\tmp\\model.ckpt"
-all_model_checkpoint_paths: "C:\\Users\\Ross\\Desktop\\Python Color NN\\tmp\\model.ckpt"
+model_checkpoint_path: "C:\\Users\\Ross\\Desktop\\Color-NN\\tmp\\model.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Ross\\Desktop\\Color-NN\\tmp\\model.ckpt"

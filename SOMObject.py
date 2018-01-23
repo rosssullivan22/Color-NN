@@ -1,6 +1,7 @@
 import tensorflow as tf
 import numpy as np
 from _datetime import datetime
+import math
 
 
 class SOM(object):
@@ -92,6 +93,7 @@ class SOM(object):
                 self.saver.restore(self.sess, "tmp\\model.ckpt")
                 self.store_centroid_grid()
                 self.trained = True
+                print('Model loaded from checkpoint')
             except:
                 init_op = tf.global_variables_initializer()
                 self.sess.run(init_op)
@@ -155,8 +157,42 @@ class SOM(object):
         self.saver.save(sess, 'C:\\Users\\Ross\\Desktop\\Python Color NN\\tmp\\model.ckpt')
         print("Model Saved!")
 
+    def map_colors(self, colors, color_labels):
+
+
+        self.mapped_colors = self.map_vects(colors)
+
+        # i = 0
+        # for e in self.mapped_colors:
+        #     print('Color:', color_labels[i], 'mapped to ', e[1], ',', e[1])
+        #     i += 1
+
     def make_color_prediction(self, input_vector):
-        mapped_vector = self.map_vects([input_vector])
+        mapped_vector = self.map_vects([input_vector])[0]
 
-     
+        distances = []
+        for c in self.mapped_colors:
+            distances.append(self.calculate_distance(mapped_vector, c))
 
+        min_index = 0
+        for i in range(len(distances)):
+            if distances[min_index] > distances[i]:
+                min_index = i
+
+
+        return min_index
+
+    def calculate_distance(self, x, y):
+
+        x1 = x[0]
+        x2 = y[0]
+        y1 = x[1]
+        y2 = y[1]
+
+        delta_x = abs(x1 - x2)
+        delta_x_squared = delta_x * delta_x
+
+        delta_y = abs(y1 - y2)
+        delta_y_squared = delta_y * delta_y
+
+        return math.sqrt(delta_x_squared + delta_y_squared)
