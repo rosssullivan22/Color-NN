@@ -52,9 +52,9 @@ def decimal_to_binary(number=int):
 
 
 def color_from_data_array(array):
-    r = binary_array_to_decimal(array[0:8]) / 255
-    g = binary_array_to_decimal(array[8:16]) / 255
-    b = binary_array_to_decimal(array[16:24]) / 255
+    r = array[0] / 255
+    g = array[1] / 255
+    b = array[2] / 255
     return (r, g, b)
 
 
@@ -78,7 +78,7 @@ def preprocessing(x):
     training_labels = []
 
     for arr in x:
-        training_data.append(decimal_to_binary(arr[0]) + decimal_to_binary(arr[1]) + decimal_to_binary(arr[2]))
+        training_data.append([arr[0], arr[1], arr[2]])
         training_labels.append(number_to_one_hot(arr[3]))
 
     return training_data, training_labels
@@ -93,11 +93,59 @@ def shuffle_data(array1, array2):
     return array1, array2
 
 
+def test_network_accuracy():
+    total_tested = 0
+    correct = 0
+
+    for i in range(len(data)):
+        index = som.make_color_prediction(data[i])
+        actual = one_hot_to_color(labels[i])
+
+        if colors[index].lower() == actual.lower():
+            correct += 1
+        total_tested += 1
+        if i % 500 == 0:
+            print(i, 'out of', len(data), 'complete')
+
+    acccuracy = correct / total_tested
+    print('Accuracy =', acccuracy)
+
+
+def predict_color_using_network(color):
+    test_color, test_label = preprocessing([color])
+    index = som.make_color_prediction(test_color)
+
+    actual = one_hot_to_color(test_label[0])
+    print('Predicted color:', colors[index], 'Actual:', actual)
+
+
+def plot_data():
+    print('Preparing data to be plotted...')
+
+    # Fit train data into SOM lattice
+    mapped = som.map_vects(data)
+    mappedarr = np.array(mapped)
+    x1 = mappedarr[:, 0]
+    y1 = mappedarr[:, 1]
+
+    print('Plotting data points...')
+
+    plt.figure(1, figsize=(12, 6))
+    plt.subplot(121)
+
+    for i in range(len(x1)):
+        color = color_from_data_array(data[i])
+        plt.scatter(x1[i], y1[i], c=color)
+
+    plt.title('Colors')
+    plt.show()
+
+
 for line in data_set.readlines():
     elements = line.split(',')
-    red = int(float(elements[0]))
-    green = int(float(elements[1]))
-    blue = int(float(elements[2]))
+    red = float(elements[0])
+    green = float(elements[1])
+    blue = float(elements[2])
     label = color_to_index(elements[3][:-1])
     data_entry = [red, green, blue, label]
     data.append(data_entry)
@@ -119,68 +167,20 @@ print('Preprocessing finished...')
 
 m = 50
 n = 50
-input_size = 24
-iterations = 30
+input_size = 3
+iterations = 100
 
 som = SOM(m, n, input_size, iterations)
 if som.trained is False:
     som.train(data)
+
 
 # map colors
 mapping_colors = [[0, 0, 0, 0], [0, 0, 255, 1], [139, 69, 19, 2], [0, 255, 0, 3], [255, 140, 0, 4], [255, 192, 203, 5], [128, 0, 128, 6], [255, 0, 0, 7], [255, 255, 0, 8]]
 mapping_colors, mapping_label = preprocessing(mapping_colors)
 som.map_colors(mapping_colors, colors)
 
+test_network_accuracy()
+plot_data()
 
-
-
-total_tested = 0
-correct = 0
-
-for i in range(len(data)):
-    index = som.make_color_prediction(data[i])
-    actual = one_hot_to_color(labels[i])
-
-    if colors[index].lower() == actual.lower():
-        correct += 1
-    total_tested += 1
-    if i % 100 == 0:
-        print(i, 'out of', len(data), 'complete')
-
-acccuracy = correct / total_tested
-print('Accuracy =', acccuracy)
-
-# test_color, test_label = preprocessing([[10, 10, 220, 1]])
-# index = som.make_color_prediction(test_color)
-
-# actual = one_hot_to_color(test_label[0])
-# print('Predicted color:', colors[index], 'Actual:', actual)
-
-print('Preparing data to be plotted...')
-
-# Fit train data into SOM lattice
-mapped = som.map_vects(data)
-mappedarr = np.array(mapped)
-x1 = mappedarr[:, 0]
-y1 = mappedarr[:, 1]
-
-print('Plotting data points...')
-
-## Plot
-# plt.figure(1, figsize=(12, 6))
-# plt.subplot(121)
-#
-for i in range(len(x1)):
-    color = color_from_data_array(data[i])
-    plt.scatter(x1[i], y1[i],c=color)
-#
-# Adding text
-# for i, m in enumerate(mapped):
-#     if i % (x1 / 20) == 0:
-#         color = one_hot_to_color(labels[i])
-#         plt.text(m[0], m[1], color, ha='center', va='center', bbox=dict(facecolor='white', alpha=0.5, lw=0))
-
-# plt.imshow(cents)
-plt.title('Colors')
-plt.show()
-print()
+# predict_color_using_network([10, 10, 220, 1])

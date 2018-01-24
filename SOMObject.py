@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 from _datetime import datetime
 import math
-
+import os
 
 class SOM(object):
     # To check if the SOM has been trained
@@ -89,6 +89,7 @@ class SOM(object):
             self.sess = tf.Session()
             self.saver = tf.train.Saver()
 
+
             try:
                 self.saver.restore(self.sess, "tmp\\model.ckpt")
                 self.store_centroid_grid()
@@ -147,14 +148,16 @@ class SOM(object):
         return to_return
 
     def print_time_remaining(self, cycle_number):
-        time_left = datetime.now() - self.time_stamp
-        time_left = time_left * (self.n_iterations - cycle_number)
-        print('Cycle:', cycle_number, '- Time Remaining:', time_left)
+        time_of_last_cycle = datetime.now() - self.time_stamp
+        time_left = time_of_last_cycle * (self.n_iterations - cycle_number)
+        print('Cycle:', cycle_number, '- Time Remaining:', time_left, ' - Time of Last Cycle:', time_of_last_cycle)
         self.time_stamp = datetime.now()
 
     def save_model(self, sess):
         print("Saving...")
-        self.saver.save(sess, 'C:\\Users\\Ross\\Desktop\\Python Color NN\\tmp\\model.ckpt')
+        project_root = os.path.abspath(os.path.dirname(__file__))
+        file_path = project_root + '\\tmp\\model.ckpt'
+        self.saver.save(sess, file_path)
         print("Model Saved!")
 
     def map_colors(self, colors, color_labels):
