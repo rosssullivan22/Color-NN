@@ -125,8 +125,7 @@ def predict_color_using_network(color):
 
 
 def map_colors():
-    mapping_colors = []
-    colors_counted = 0
+    mapping_colors = [[0, 0, 0, 0], [0, 0, 255, 1], [139, 69, 19, 2], [0, 255, 0, 3], [255, 140, 0, 4], [255, 192, 203, 5], [128, 0, 128, 6], [255, 0, 0, 7], [255, 255, 0, 8]]
 
     for i in range(len(colors)):
         color_r = 0
@@ -146,8 +145,12 @@ def map_colors():
 
         mapping_colors.append([average_r, average_g, average_b, i])
 
-    mapping_colors, mapping_label = preprocessing(mapping_colors)
-    som.map_colors(mapping_colors, colors)
+    mapping_labels = []
+    for c in mapping_colors:
+        mapping_labels.append(c[3])
+
+    mapping_colors, _ = preprocessing(mapping_colors)
+    som.map_colors(mapping_colors, mapping_labels)
 
 def plot(x):
     print('Preparing data to be plotted...')

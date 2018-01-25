@@ -160,8 +160,12 @@ class SOM(object):
         self.saver.save(sess, file_path)
         print("Model Saved!")
 
-    def map_colors(self, colors, color_labels):
+
+
+    def map_colors(self, colors, labels):
         self.mapped_colors = self.map_vects(colors)
+        self.colors = labels
+
 
     def make_color_prediction(self, input_vector):
         mapped_vector = self.map_vects([input_vector])[0]
@@ -176,7 +180,7 @@ class SOM(object):
                 min_index = i
 
 
-        return min_index
+        return self.colors[min_index]
 
     def calculate_distance(self, x, y):
 
