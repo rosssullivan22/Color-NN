@@ -3,18 +3,23 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
 import random
+import os
 
+project_root = os.path.abspath(os.path.dirname(__file__))
 
 # Prepare Data
 colors = ["Black", "Blue", "Brown", "Green", "Orange", "Pink", "Purple", "Red", "Yellow"]
-data_set = open('C:\\Users\\Ross\\Desktop\\Python Color NN\\colors_dataset.csv', 'r')
+data_set = open(project_root + '\\colors_dataset.csv', 'r')
 data = []
+
+def one_hot_to_index(array):
+    for i in range(len(array)):
+        if array[i] == 1:
+            return i
 
 
 def one_hot_to_color(array):
-    for i in range(len(array)):
-        if array[i] == 1:
-            return colors[i]
+    return colors[one_hot_to_index(array)]
 
 
 def color_to_index(color=str):
@@ -119,11 +124,36 @@ def predict_color_using_network(color):
     print('Predicted color:', colors[index], 'Actual:', actual)
 
 
-def plot_data():
+def map_colors():
+    mapping_colors = []
+    colors_counted = 0
+
+    for i in range(len(colors)):
+        color_r = 0
+        color_g = 0
+        color_b = 0
+        colors_counted = 0
+        for j in range(len(data)):
+            if i == one_hot_to_index(labels[j]):
+                color_r += data[j][0]
+                color_g += data[j][1]
+                color_b += data[j][2]
+                colors_counted += 1
+
+        average_r = color_r / colors_counted
+        average_g = color_g / colors_counted
+        average_b = color_b / colors_counted
+
+        mapping_colors.append([average_r, average_g, average_b, i])
+
+    mapping_colors, mapping_label = preprocessing(mapping_colors)
+    som.map_colors(mapping_colors, colors)
+
+def plot(x):
     print('Preparing data to be plotted...')
 
     # Fit train data into SOM lattice
-    mapped = som.map_vects(data)
+    mapped = som.map_vects(x)
     mappedarr = np.array(mapped)
     x1 = mappedarr[:, 0]
     y1 = mappedarr[:, 1]
@@ -151,17 +181,9 @@ for line in data_set.readlines():
     data.append(data_entry)
 
 data, labels = preprocessing(data)
-data, labels = shuffle_data(data, labels)
+# data, labels = shuffle_data(data, labels)
 # data = data[:500]
 
-
-# Shuffle and duplicate data for more entries
-# d = data
-# l = labels
-# for i in range(10):
-#     data2, labels2 = shuffle_data(d, l)
-#     data = data + data2
-#     labels = labels + labels2
 
 print('Preprocessing finished...')
 
@@ -175,12 +197,8 @@ if som.trained is False:
     som.train(data)
 
 
-# map colors
-mapping_colors = [[0, 0, 0, 0], [0, 0, 255, 1], [139, 69, 19, 2], [0, 255, 0, 3], [255, 140, 0, 4], [255, 192, 203, 5], [128, 0, 128, 6], [255, 0, 0, 7], [255, 255, 0, 8]]
-mapping_colors, mapping_label = preprocessing(mapping_colors)
-som.map_colors(mapping_colors, colors)
-
+map_colors()
 test_network_accuracy()
-plot_data()
+plot(data)
 
 # predict_color_using_network([10, 10, 220, 1])

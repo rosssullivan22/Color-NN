@@ -161,14 +161,7 @@ class SOM(object):
         print("Model Saved!")
 
     def map_colors(self, colors, color_labels):
-
-
         self.mapped_colors = self.map_vects(colors)
-
-        # i = 0
-        # for e in self.mapped_colors:
-        #     print('Color:', color_labels[i], 'mapped to ', e[1], ',', e[1])
-        #     i += 1
 
     def make_color_prediction(self, input_vector):
         mapped_vector = self.map_vects([input_vector])[0]
